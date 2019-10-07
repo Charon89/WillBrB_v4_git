@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import'variables';
+
+#head_text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+div>img {
+    box-shadow: 1px 1px 5px rgb(80, 80, 80);
+    border-radius: 5px;
+    background: transparent;
+}
+
+#search_field {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(191, 191, 191, 0.178);
+
+    #search_field {
+        font-size: 1.5em;
+        //line-height: 1.7em;
+        width: 300px;
+        margin: 0px 15px;
+        border-radius: 5px;
+    }
+
+    #search_btn {
+        font-size: 1.1em;
+        line-height: 1.5;
+        padding: 15px 40px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: $buttonColor;
+        box-shadow: 1px 1px 5px rgb(80, 80, 80);
+
+        &:hover {
+            box-shadow: inset 2px 2px 5px rgb(80, 80, 80);
+        }
+    }
+}
